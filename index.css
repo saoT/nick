@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Pacifico');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, .full-height {
+  height: 100%;
+}
+
+.handwriting {
+  font-family: 'Pacifico';
+  font-size: 70px;
+}
+
+.margin {
+  margin: 0 25px;
+}
+
+ul li {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.grid {
+  /*border: 5px solid blue;*/
+  overflow: scroll;
+}
+
+.row {
+  /*border: 5px solid red;*/
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.col {
+  /*border: 5px solid green;*/
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.double {
+  flex: 2;
+}
+
+img {
+  max-width: 100%;
+  transition: all 0.2s;
+}
+
+img:hover {
+  max-width: 80%;
+}
+
+.first {
+  background-color: #01354D;
+}
+
+
+.second {
+  background-color: #389193;
+}
+
+.third {
+  background-color: #7C5C70;
+}
+
+.fourth {
+  background-color: #CD484B;
+}
+
+.fifth {
+  background-color: #F0816F;
+}
+
+.sixth {
+  background-color: #E9AE6F;
+}
